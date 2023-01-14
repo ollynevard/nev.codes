@@ -1,0 +1,28 @@
+---
+import Nav from '../components/Nav.astro';
+---
+
+<header>
+  <a class="site-name" href="/">nev.codes</a>
+  <Nav />
+</header>
+
+<style>
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 60ch;
+		padding: 1.5rem;
+  }
+
+  .site-name {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  .site-name:hover {
+    text-decoration: underline;
+  }
+</style>
