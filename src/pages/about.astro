@@ -1,9 +1,30 @@
-
 ---
 import Layout from '../layouts/Layout.astro';
+
+const title = 'About';
+const identity = {
+  firstName: "Olly",
+  country: "England",
+  occupation: "Sofware Engineer",
+  hobbies: ["weight lifting", "programming"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "Astro"];
 ---
 
-<Layout title='About'>
-  <h1>About</h1>
+<Layout title={title}>
+  <h1>{title}</h1>
+  <p>Here are a few facts about me:</p>
+  <ul>
+    <li>My name is {identity.firstName}.</li>
+    <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
+    {identity.hobbies.length >= 2 && 
+      <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+    } 
+  </ul>
+  <p>My skills are:</p>
+  <ul>
+    {skills.map((skill) => <li>{skill}</li>)}
+  </ul>
 </Layout>
 
