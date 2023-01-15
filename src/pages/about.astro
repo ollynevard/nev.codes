@@ -1,7 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/BaseLayout.astro';
 
-const title = 'About';
+const pageTitle = 'About';
 const identity = {
   firstName: "Olly",
   country: "England",
@@ -18,8 +18,7 @@ const fontWeight = 'bold';
 const textCase = 'uppercase';
 ---
 
-<Layout title={title}>
-  <h1>{title}</h1>
+<Layout pageTitle={pageTitle}>
   <p>Here are a few facts about me:</p>
   <ul>
     <li>My name is {identity.firstName}.</li>
