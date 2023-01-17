@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting.jsx';
 
 const title = 'nev.codes'
 const description = 'Another blog...';
@@ -7,6 +8,7 @@ const description = 'Another blog...';
 
 <Layout title={title} showTitle={false} description={description}>
 	<h1>Welcome to <span class="text-gradient">nev.codes</span></h1>
+  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
 </Layout>
 
 <style>
