@@ -1,8 +1,8 @@
 ---
-pageTitle: 'My first Blog Post'
-layout: '../../layouts/PostLayout.astro'
-publishedOn: 2021-01-14
+title: 'My first Blog Post'
 description: 'This is the first post of my new Astro blog.'
+publishedOn: 2021-01-14
+layout: '../../layouts/PostLayout.astro'
 image:
   url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg'
   alt: 'The Astro logo with the word One.'
