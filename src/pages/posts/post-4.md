@@ -1,7 +1,7 @@
 ---
 title: My Fourth Blog Post
 description: "This post will show up on it's own"
-publishedOn: 2022-08-08
+pubDate: 2022-08-08
 layout: '../../layouts/PostLayout.astro'
 image: 
     url: "https://astro.build/assets/cover_Z1RSGKy.avif"

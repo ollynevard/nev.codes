@@ -1,7 +1,7 @@
 ---
 title: 'My first Blog Post'
 description: 'This is the first post of my new Astro blog.'
-publishedOn: 2021-01-14
+pubDate: 2021-01-14
 layout: '../../layouts/PostLayout.astro'
 image:
   url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg'

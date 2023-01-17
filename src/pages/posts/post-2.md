@@ -1,7 +1,7 @@
 ---
 title: My Second Blog Post
 description: "After learning some Astro, I couldn't stop!"
-publishedOn: 2022-07-08
+pubDate: 2022-07-08
 layout: '../../layouts/PostLayout.astro'
 image: 
     url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"
